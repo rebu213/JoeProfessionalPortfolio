@@ -74,7 +74,7 @@ h2{
     flex-direction: column;
     width: 75%;
     height:fit-content;
-    margin-left: 18%;
+    margin-left: 9%;
     border-left: solid blue 10px;
 }
 
@@ -195,7 +195,6 @@ h2{
 .footer-item {
     display: flex;
     height: fit-content;
-    justify-content: space-around;
 }
 
 .footer-item p {
@@ -203,7 +202,10 @@ h2{
 }
 
 /* simple media query to make responsive layout */
-@media all and (max-width:780px) {
+@media all and (max-width:500px) {
     body {color:red;
     }
+    h2 { color: green;
+    }
+
 }

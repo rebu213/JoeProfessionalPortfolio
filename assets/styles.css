@@ -1,3 +1,6 @@
+/*  no universal stylings 
+1st flex box for the nav links at the top of page*/
+
 .nav-list {
      display: flex;
      flex-direction: row;
@@ -5,22 +8,26 @@
      width: 100%;
      height: 90%;
  } 
+ /*  only way to get picture to the left of name*/
  .nav-item {
      display: flex;
  }
+ /* apply color to my name */
  .nav-item h1 {
     background-color: aqua;
     width: 40%;
     height: 20%
 }
+/* adjust height so that image was not using so much space */
 .nav-item img {
     height: 40%;
     padding-right: 30%;
 }
+/* put links at the end of the box */
 .nav-item a {
     align-items: flex-end;
 }
-
+/* background with text flexbox */
 .hero-bg {
     background-image: url(./images/heroBG.jpg);
     display:flex;
@@ -28,14 +35,17 @@
     height: 100px;
 }
 
+/* used diff semantic html */
 .hero-bg span {
     background-color: green;
     height: 20px;
 }
 
+/* simple flexbox to have about section and paragraphs on the right */
 .about-me-container {
     display:flex;
 }
+/* about, work and contact all have the same style font */
 h2{
     color: darkgray;
     padding: 2%;
@@ -45,6 +55,7 @@ h2{
     border-left: 10px solid blue;
 }
 
+/* main flexbox to hold all images */
 .work-container{
     display: flex;
     flex-direction: row;
@@ -63,13 +74,13 @@ h2{
     margin-left: 10px;
     width: 5em;
 }
-
+/* 1st larger size box */
 .surf-item {
     display: flex;
     width: 100%;
     height: 45%;
 }
-
+/* p and img are children of surfitem flex parent */
 .surf-item p {
     position: absolute;
     color: white;
@@ -80,7 +91,7 @@ h2{
     width: 100%;
     height: 100%;
 }
-
+/* 2nd row flex parent to hold children run buddy and its children the p img and ledwall and it's children */
 .secflexcontainer {
     display: flex;
     flex-direction: row;
@@ -119,12 +130,14 @@ h2{
     width: 100%;
 }
 
+/* last flexbox to hold the calculator and the puzzles */
 .thirdflexcontainer {
     display: flex;
     flex-direction: row;
     height: 30%;
 }
 
+/* adjusting pictures to be all the same size in browsr */
 .calc {
     width: 45%;
     height:45%;
@@ -161,6 +174,7 @@ h2{
     background-color: aqua;
 }
 
+/* thhis was the footer flexbox */
 .contact-container {
     display: flex;
 }
@@ -169,6 +183,7 @@ h2{
     border-right: 10px blue solid;
 }
 
+/* only way I could get the links to be on the right. */
 .footer-item {
     display: flex;
 }
@@ -177,6 +192,7 @@ h2{
     padding-left: 30%;
 }
 
+/* simple media query to make responsive layout */
 @media all and (max-width:780px) {
     body {color:red;
     }

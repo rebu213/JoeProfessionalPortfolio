@@ -12,6 +12,9 @@
 <body>
     <header>
         <nav>
+            <!-- Nav list is flex container and nav items are the children -->
+            <!-- could not adjust background length -->
+            <!-- added resume page just generic page -->
             <div class="nav-list">
                 <div class="nav-item">
                     <h1> Joseph Paul </h1>
@@ -24,10 +27,13 @@
             </div>
         </nav>
     </header>
+    <!-- class for the splash image -->
     <section class="hero-bg">
         <span> Some cool text! </span>
     </section>
 
+    <!-- aboutmecontainer is the large box that contains multiple small boxes
+    About me has 2 paragraphs with the border -->
     <div id="about-flex" class="about-me-container">
         <div class="about-me-item"> </div>
         <h2> About me</h2>
@@ -56,6 +62,9 @@
 
     </div>
     <!-- work-container is the parent;surf-item is the child -->
+    <!-- used flex row as that was more simpler to visualize instead of columns 
+    broke left column to hold all headings and right column to hold pictures, text, and links
+    Unable to get border as that seemed to break the flexbox-->
     <div id="work-flex-box" class="work-container">
         <div class="left-column">
             <h2> Work</h2>
@@ -87,6 +96,7 @@
             </div>
         </div>
     </div>  
+    <!-- footer for contact section -->
     <footer>
         <div id="contact-me" class="contact-container" >
             <nav class="footer-item">

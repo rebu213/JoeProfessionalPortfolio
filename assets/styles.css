@@ -11,21 +11,25 @@
  /*  only way to get picture to the left of name*/
  .nav-item {
      display: flex;
+     width: 100%;
+     height: 40%;
+     justify-content: space-around;
  }
  /* apply color to my name */
  .nav-item h1 {
     background-color: aqua;
-    width: 40%;
-    height: 20%
+    width: 10%;
+    height: 10%
 }
 /* adjust height so that image was not using so much space */
 .nav-item img {
-    height: 40%;
+    height: 60px;
     padding-right: 30%;
 }
 /* put links at the end of the box */
 .nav-item a {
     align-items: flex-end;
+    justify-content: space-between;
 }
 /* background with text flexbox */
 .hero-bg {
@@ -66,8 +70,12 @@ h2{
 }
 
 .right-column {
+    display: flex;
+    flex-direction: column;
     width: 75%;
     height:fit-content;
+    margin-left: 18%;
+    border-left: solid blue 10px;
 }
 
 .work-container p {
@@ -111,11 +119,11 @@ h2{
 }
 
 .runbud img {
-    width: 100%;
+    width: 80%;
 }
 
 .ledwall {
-    width: 30%;
+    width: 45%;
     padding: 1em;
 }
 
@@ -127,7 +135,7 @@ h2{
 }
 
 .ledwall img {
-    width: 100%;
+    width: 70%;
 }
 
 /* last flexbox to hold the calculator and the puzzles */
@@ -152,18 +160,18 @@ h2{
 }
 
 .calc img {
-    width: 100%;
+    width: 70%;
     height: 30%;
 }
 
 .pastels {
-    width: 55%;
+    width: 45%;
     padding: 1em;
     height: 45%;
 }
 
 .pastels img {
-    width: 100%;
+    width: 70%;
     height: 30%;
 }
 
@@ -186,6 +194,8 @@ h2{
 /* only way I could get the links to be on the right. */
 .footer-item {
     display: flex;
+    height: fit-content;
+    justify-content: space-around;
 }
 
 .footer-item p {

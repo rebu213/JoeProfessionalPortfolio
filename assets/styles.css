@@ -1,0 +1,183 @@
+.nav-list {
+     display: flex;
+     flex-direction: row;
+     background-color: gray;
+     width: 100%;
+     height: 90%;
+ } 
+ .nav-item {
+     display: flex;
+ }
+ .nav-item h1 {
+    background-color: aqua;
+    width: 40%;
+    height: 20%
+}
+.nav-item img {
+    height: 40%;
+    padding-right: 30%;
+}
+.nav-item a {
+    align-items: flex-end;
+}
+
+.hero-bg {
+    background-image: url(./images/heroBG.jpg);
+    display:flex;
+    justify-content: end;
+    height: 100px;
+}
+
+.hero-bg span {
+    background-color: green;
+    height: 20px;
+}
+
+.about-me-container {
+    display:flex;
+}
+h2{
+    color: darkgray;
+    padding: 2%;
+}
+.about-me-container p {
+    padding-left: 2%;
+    border-left: 10px solid blue;
+}
+
+.work-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left-column {
+    width: 25%;
+}
+
+.right-column {
+    width: 75%;
+    height:fit-content;
+}
+
+.work-container p {
+    margin-left: 10px;
+    width: 5em;
+}
+
+.surf-item {
+    display: flex;
+    width: 100%;
+    height: 45%;
+}
+
+.surf-item p {
+    position: absolute;
+    color: white;
+    background-color: aqua;
+}
+
+.surf-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.secflexcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.runbud {
+    width: 45%;
+    height: 35%;
+    padding: 1em;
+}
+
+.runbud p {
+    width: 5em;
+    position: absolute;
+    color: black;
+    background-color: aqua;
+}
+
+.runbud img {
+    width: 100%;
+}
+
+.ledwall {
+    width: 30%;
+    padding: 1em;
+}
+
+.ledwall p{
+    width: 4em;
+    position: absolute;
+    color: white;
+    background-color: aqua;
+}
+
+.ledwall img {
+    width: 100%;
+}
+
+.thirdflexcontainer {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+}
+
+.calc {
+    width: 45%;
+    height:45%;
+    padding: 1em;
+}
+
+.calc p {
+    width: 10em;
+    position: absolute;
+    color: black;
+    background-color: aqua;
+}
+
+.calc img {
+    width: 100%;
+    height: 30%;
+}
+
+.pastels {
+    width: 55%;
+    padding: 1em;
+    height: 45%;
+}
+
+.pastels img {
+    width: 100%;
+    height: 30%;
+}
+
+.pastels p {
+    width: 8em;
+    position: absolute;
+    color: black;
+    background-color: aqua;
+}
+
+.contact-container {
+    display: flex;
+}
+.contact-container h2 {
+    padding: 20%;
+    border-right: 10px blue solid;
+}
+
+.footer-item {
+    display: flex;
+}
+
+.footer-item p {
+    padding-left: 30%;
+}
+
+@media all and (max-width:780px) {
+    body {color:red;
+    }
+}
